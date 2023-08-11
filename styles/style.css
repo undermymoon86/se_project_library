@@ -64,7 +64,7 @@
   z-index: 1;
   position: absolute;
   max-width: 636px;
-  top: 100px;
+  top: 135px;
   right: 20px;
 }
 
@@ -393,7 +393,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000;
+  background-color: #1f1f1f;
   color: white;
   padding: 60px 102px 60px 80px;
 }
@@ -425,17 +425,8 @@
   margin: 0 0 16px;
 }
 
-.footer__list-item::before {
-  content: "";
-  display: block;
-  height: 20px;
-}
-
-li:last-child {
-  margin-bottom: 0;
-}
-
 .footer__column-heading {
+  font-size: 16px;
   margin: 0 0 20px;
 }
 
